@@ -1,0 +1,193 @@
+p{
+    font-size: 80px;
+    text-align: center;
+}
+
+.upcycle{
+    margin-top: 120px;
+    width: 25%;
+    object-fit: cover;
+    place-items: center;
+    margin-right: 50px;  
+
+}
+
+.logo-section{
+    text-align: center;
+    
+}
+
+
+@media screen and (min-width:280px) and (max-width:300px){
+
+    p{
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .upcycle{
+        margin-top: 120px;
+        width: 25%;
+        object-fit: cover;
+        place-items: center;
+        margin-right: 5px;
+    }
+    
+    .logo-section{
+        text-align: center;
+        margin-top: 80px;
+    }
+    
+}
+
+@media screen and (min-width:301px) and (max-width:375px){
+
+    p{
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .upcycle{
+        margin-top: 120px;
+        width: 25%;
+        object-fit: cover;
+        place-items: center;
+        margin-right: 5px;
+    }
+    
+    .logo-section{
+        text-align: center;
+        margin-top: 80px;
+    }
+    
+}
+
+@media screen and (min-width:376px) and (max-width:400px){
+
+    p{
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .upcycle{
+        margin-top: 120px;
+        width: 25%;
+        object-fit: cover;
+        place-items: center;
+        margin-right: 5px;
+    }
+    
+    .logo-section{
+        text-align: center;
+        margin-top: 170px;
+    }
+    
+}
+
+@media screen and (min-width:401px) and (max-width:450px){
+
+    p{
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .upcycle{
+        margin-top: 120px;
+        width: 25%;
+        object-fit: cover;
+        place-items: center;
+        margin-right: 5px;
+    }
+    
+    .logo-section{
+        text-align: center;
+        margin-top: 180px;
+    }
+    
+}
+
+@media screen and (min-width:451px) and (max-width:550px){
+
+    p{
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .upcycle{
+        margin-top: 120px;
+        width: 25%;
+        object-fit: cover;
+        place-items: center;
+        margin-right: 5px;
+    }
+    
+    .logo-section{
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+}
+
+@media screen and (min-width:700px) and (max-width:800px){
+
+    p{
+        font-size: 70px;
+        text-align: center;
+    }
+    
+    .upcycle{
+        margin-top: 120px;
+        width: 25%;
+        object-fit: cover;
+        place-items: center;
+        margin-right: 5px;
+    }
+    
+    .logo-section{
+        text-align: center;
+        margin-top: 170px;
+    }
+    
+}
+
+@media screen and (min-width:800px) and (max-width:912px){
+
+    p{
+        font-size: 80px;
+        text-align: center;
+    }
+    
+    .upcycle{
+        margin-top: 120px;
+        width: 35%;
+        object-fit: cover;
+        place-items: center;
+        margin-right: 5px;
+    }
+    
+    .logo-section{
+        text-align: center;
+        margin-top: 170px;
+    }
+    
+}
+
+@media screen and (min-width:1000px) and (max-width:1024px){
+
+    p{
+        font-size: 80px;
+        text-align: center;
+    }
+    
+    .upcycle{
+        width: 15%;
+        object-fit: cover;
+        place-items: center;
+        margin-right: 5px;
+    }
+    
+    .logo-section{
+        text-align: center;
+    }
+    
+}

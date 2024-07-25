@@ -15,7 +15,7 @@ const SplashScreen = () => {
 
     return (
         <div className='logo-section'>
-            <img src='/Images/logo.png' alt='Logo' className='upcycle' />
+            <img src='/images/logo.png' alt='Logo' className='upcycle' />
             <p>Loop & Wear</p>
         </div>
     );

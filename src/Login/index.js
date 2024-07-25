@@ -22,7 +22,7 @@ const Login = () => {
             <label for='password'>Password:</label>
             <input type='password' id='password' required />
 
-            <button type='submit'><b>Login</b></button>
+            <button type='submit'><b>Log In</b></button>
 
             </form>
 

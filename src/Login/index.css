@@ -1,789 +1,7 @@
-/* .login-container {
-    padding: 20px;
-    background:  #496307;
-    border-radius: 5px;
-    width: 30%;
-    margin-left: 34%;
-    margin-top: 55px;
-    
-}
-
-
-.container{
-    display: grid;
-    margin-left: 10%;
-}
-
-h1{
-    text-align: center;
-    font-size: 45px;
-}
-
-h2{
-    text-align: center;
-    font-size: 40px;
-}
-
-.text{
-    color: #7DAB08;
-    text-decoration: none;
-    margin-top: 30px;
-
-}
-
-.sign-up{
-    display: flex;
-    margin-left: 20%;
-    gap: 2%;
-    font-size: 23px;
-
-}
-
-label {
-    display: block;
-    margin-bottom: 25px;
-    margin-top: 25px;
-    font-size: 25px;
-}
-
-input {
-    width: 80%;
-    padding: 20px;
-    border: 5px solid #F2E5DD;
-    border-radius: 4px;
-    background-color: #F2E5DD;
-
-
-}
-
-button {
-    width: 35%;
-    padding: 10px;
-    background-color: #070E50;
-    color: white;
-    border: none;
-    font-size: 25px;
-    border-radius: 7px;
-    cursor: pointer;
-    margin-top: 30px;
-    margin-left:26%;
-   
-}
-
-button:hover {
-    background-color: #7DAB08;
-}
-
-@media screen and (min-width:280px) and (max-width:300px){
-
-    .login-container {
-        padding: 95px;
-        background:  #496307;
-        border-radius: 5px;
-        width: 30%;
-        margin-left: 0%;
-        /* margin-top: 55px; */
-/*         
-    }
-    
-    
-    .container{
-        display: grid;
-        margin-left: 0%;
-    }
-    
-    h1{
-        text-align: center;
-        font-size: 12px;
-    }
-    
-    h2{
-        text-align: center;
-        font-size: 15px;
-    }
-    
-    .text{
-        color: #7DAB08;
-        text-decoration: none;
-        margin-top: 30px;
-    
-    }
-    
-    .sign-up{
-        display: flex;
-        margin-left: 0;
-        gap: 0%;
-        font-size: 9px;
-    
-    }
-    
-    label {
-        display: block;
-        margin-bottom: 25px;
-        margin-top: 25px;
-        font-size: 15px;
-    }
-    
-    input {
-        width: 100%;
-        padding: 10px;
-        border: 5px solid #F2E5DD;
-        border-radius: 4px;
-        background-color: #F2E5DD;
-    
-    
-    }
-    
-    button {
-        width: 115%;
-        padding: 10px;
-        background-color: #070E50;
-        color: white;
-        border: none;
-        font-size: 25px;
-        border-radius: 7px;
-        cursor: pointer;
-        margin-top: 30px;
-        margin-left:5%;
-       
-    }
-    
-    button:hover {
-        background-color: #7DAB08;
-    }
-    
-    
-}
-
-@media screen and (min-width:301px) and (max-width:375px){
-
-   .login-container {
-        padding: 20px;
-        background: white;
-        border-radius: 5px;
-    }
-    
-    .container{
-        display: grid;
-        margin-left: 2%;
-    }
-    
-    h1{
-        text-align: center;
-        font-size: 28px;
-    }
-    
-    h2{
-        text-align: center;
-        font-size: 26px;
-    }
-    
-    h3{
-        color: #7DAB08;
-        font-size: 15x;
-    }
-
-    h4{
-        font-size: 15x;
-
-    }
-    
-    .sign-up{
-        display: flex;
-        margin-left: 8%;
-        gap: 1%;
-        font-size: 20px;
-    
-    }
-    
-    label {
-        display: block;
-        margin-bottom: 25px;
-        margin-top: 5px;
-        font-size: 20px;
-    }
-    
-    input {
-        width: 87%;
-        padding: 13px;
-        border: 5px solid #F2E5DD;
-        border-radius: 4px;
-        background-color: #F2E5DD;
-    
-    
-    }
-    
-    button {
-        width: 45%;
-        padding: 10px;
-        background-color: #070E50;
-        color: white;
-        border: none;
-        font-size: 25px;
-        border-radius: 7px;
-        cursor: pointer;
-        margin-top: 30px;
-        margin-left:25%;
-       
-    }
-    
-    button:hover {
-        background-color: #7DAB08;
-    }
-}
-
-    
-
-@media screen and (min-width:376px) and (max-width:400px){
-
-    .login-container {
-        padding: 20px;
-        background: white;
-        border-radius: 5px;
-    }
-    
-    .container{
-        display: grid;
-        margin-left: 2%;
-    }
-    
-    h1{
-        text-align: center;
-        font-size: 35px;
-    }
-    
-    h2{
-        text-align: center;
-        font-size: 28px;
-    }
-    
-    h3{
-        color: #7DAB08;
-        font-size: 15x;
-    }
-
-    h4{
-        font-size: 15x;
-
-    }
-    
-    .sign-up{
-        display: flex;
-        margin-left: 7%;
-        gap: 1%;
-        font-size: 22px;
-    
-    }
-    
-    label {
-        display: block;
-        margin-bottom: 25px;
-        margin-top: 5px;
-        font-size: 25px;
-    }
-    
-    input {
-        width: 88%;
-        padding: 13px;
-        border: 5px solid #F2E5DD;
-        border-radius: 4px;
-        background-color: #F2E5DD;
-    
-    
-    }
-    
-    button {
-        width: 45%;
-        padding: 10px;
-        background-color: #070E50;
-        color: white;
-        border: none;
-        font-size: 25px;
-        border-radius: 7px;
-        cursor: pointer;
-        margin-top: 30px;
-        margin-left:26%;
-       
-    }
-    
-    button:hover {
-        background-color: #7DAB08;
-    }
-    
-}
-
-@media screen and (min-width:401px) and (max-width:450px){
-
-    .login-container {
-        padding: 20px;
-        background: white;
-        border-radius: 5px;
-    }
-    
-    .container{
-        display: grid;
-        margin-left: 2%;
-    }
-    
-    h1{
-        text-align: center;
-        font-size: 30px;
-    }
-    
-    h2{
-        text-align: center;
-        font-size: 26px;
-    }
-    
-    h3{
-        color: #7DAB08;
-        font-size: 15x;
-    }
-
-    h4{
-        font-size: 15x;
-
-    }
-    
-    .sign-up{
-        display: flex;
-        margin-left: 7%;
-        gap: 1%;
-        font-size: 23px;
-    
-    }
-    
-    label {
-        display: block;
-        margin-bottom: 25px;
-        margin-top: 5px;
-        font-size: 25px;
-    }
-    
-    input {
-        width: 88%;
-        padding: 15px;
-        border: 5px solid #F2E5DD;
-        border-radius: 4px;
-        background-color: #F2E5DD;
-    
-    
-    }
-    
-    button {
-        width: 45%;
-        padding: 10px;
-        background-color: #070E50;
-        color: white;
-        border: none;
-        font-size: 25px;
-        border-radius: 7px;
-        cursor: pointer;
-        margin-top: 30px;
-        margin-left:26%;
-       
-    }
-    
-    button:hover {
-        background-color: #7DAB08;
-    }
-    
-}
-    
-@media screen and (min-width:451px) and (max-width:550px){
-
-    .login-container {
-        padding: 20px;
-        background: white;
-        border-radius: 5px;
-    }
-    
-    .container{
-        display: grid;
-        margin-left: 2%;
-    }
-    
-    h1{
-        text-align: center;
-        font-size: 30px;
-    }
-    
-    h2{
-        text-align: center;
-        font-size: 28px;
-    }
-    
-    h3{
-        color: #7DAB08;
-        font-size: 15x;
-    }
-
-    h4{
-        font-size: 15x;
-
-    }
-    
-    .sign-up{
-        display: flex;
-        margin-left: 8%;
-        gap: 1%;
-        font-size: 29px;
-    
-    }
-    
-    label {
-        display: block;
-        margin-bottom: 25px;
-        margin-top: 5px;
-        font-size: 25px;
-    }
-    
-    input {
-        width: 91%;
-        padding: 14px;
-        border: 5px solid #F2E5DD;
-        border-radius: 4px;
-        background-color: #F2E5DD;
-    
-    
-    }
-    
-    button {
-        width: 45%;
-        padding: 10px;
-        background-color: #070E50;
-        color: white;
-        border: none;
-        font-size: 25px;
-        border-radius: 7px;
-        cursor: pointer;
-        margin-top: 30px;
-        margin-left:25%;
-       
-    }
-    
-    button:hover {
-        background-color: #7DAB08;
-    }
-
-   
-}
-
-@media screen and (min-width:700px) and (max-width:800px){
-    .login-container {
-        padding: 20px;
-        background: white;
-        border-radius: 5px;
-    }
-    
-    .container{
-        display: grid;
-        margin-left: 2%;
-    }
-    
-    h1{
-        text-align: center;
-        font-size: 40px;
-    }
-    
-    h2{
-        text-align: center;
-        font-size: 30px;
-    }
-    
-    h3{
-        color: #7DAB08;
-        font-size: 15x;
-    }
-
-    h4{
-        font-size: 15x;
-
-    }
-    
-    .sign-up{
-        display: flex;
-        margin-left: 8%;
-        gap: 1%;
-        font-size: 40px;
-    
-    }
-    
-    label {
-        display: block;
-        margin-bottom: 25px;
-        margin-top: 5px;
-        font-size: 30px;
-    }
-    
-    input {
-        width: 88%;
-        padding: 25px;
-        border: 5px solid #F2E5DD;
-        border-radius: 4px;
-        background-color: #F2E5DD;
-    
-    
-    }
-    
-    button {
-        width: 45%;
-        padding: 15px;
-        background-color: #070E50;
-        color: white;
-        border: none;
-        font-size: 25px;
-        border-radius: 7px;
-        cursor: pointer;
-        margin-top: 30px;
-        margin-left:24%;
-       
-    }
-    
-    button:hover {
-        background-color: #7DAB08;
-    }
-
-    
-}
-
-@media screen and (min-width:800px) and (max-width:912px){
-
-    .login-container {
-        padding: 20px;
-        background: white;
-        border-radius: 5px;
-    }
-    
-    .container{
-        display: grid;
-        margin-left: 2%;
-    }
-    
-    h1{
-        text-align: center;
-        font-size: 40px;
-    }
-    
-    h2{
-        text-align: center;
-        font-size: 30px;
-    }
-    
-    h3{
-        color: #7DAB08;
-        font-size: 15x;
-    }
-
-    h4{
-        font-size: 15x;
-
-    }
-    
-    .sign-up{
-        display: flex;
-        margin-left: 8%;
-        gap: 1%;
-        font-size: 40px;
-    
-    }
-    
-    label {
-        display: block;
-        margin-bottom: 25px;
-        margin-top: 5px;
-        font-size: 30px;
-    }
-    
-    input {
-        width: 88%;
-        padding: 25px;
-        border: 5px solid #F2E5DD;
-        border-radius: 4px;
-        background-color: #F2E5DD;
-    
-    
-    }
-    
-    button {
-        width: 45%;
-        padding: 15px;
-        background-color: #070E50;
-        color: white;
-        border: none;
-        font-size: 25px;
-        border-radius: 7px;
-        cursor: pointer;
-        margin-top: 30px;
-        margin-left:24%;
-       
-    }
-    
-    button:hover {
-        background-color: #7DAB08;
-    }
-
-    
-}
-
-@media screen and (min-width:1000px) and (max-width:1024px){
-    .login-container {
-        padding: 20px;
-        background: white;
-        border-radius: 5px;
-    }
-    
-    .container{
-        display: grid;
-        margin-left: 2%;
-    }
-    
-    h1{
-        text-align: center;
-        font-size: 40px;
-    }
-    
-    h2{
-        text-align: center;
-        font-size: 30px;
-    }
-    
-    h3{
-        color: #7DAB08;
-        font-size: 15x;
-    }
-
-    h4{
-        font-size: 15x;
-
-    }
-    
-    .sign-up{
-        display: flex;
-        margin-left: 20%;
-        gap: 1%;
-        font-size: 40px;
-    
-    }
-    
-    label {
-        display: block;
-        margin-bottom: 25px;
-        margin-top: 5px;
-        font-size: 30px;
-    }
-    
-    input {
-        width: 88%;
-        padding: 25px;
-        border: 5px solid #F2E5DD;
-        border-radius: 4px;
-        background-color: #F2E5DD;
-    
-    
-    }
-    
-    button {
-        width: 45%;
-        padding: 15px;
-        background-color: #070E50;
-        color: white;
-        border: none;
-        font-size: 25px;
-        border-radius: 7px;
-        cursor: pointer;
-        margin-top: 30px;
-        margin-left:24%;
-       
-    }
-    
-    button:hover {
-        background-color: #7DAB08;
-    }
-
-}
-
-@media screen and (min-width:1030px) and (max-width:1284px){
-    .login-container {
-        padding: 20px;
-        background: white;
-        border-radius: 5px;
-    }
-    
-    .container{
-        display: grid;
-        margin-left: 2%;
-    }
-    
-    h1{
-        text-align: center;
-        font-size: 40px;
-    }
-    
-    h2{
-        text-align: center;
-        font-size: 30px;
-    }
-    
-    h3{
-        color: #7DAB08;
-        font-size: 15x;
-    }
-
-    h4{
-        font-size: 15x;
-
-    }
-    
-    .sign-up{
-        display: flex;
-        margin-left: 20%;
-        gap: 1%;
-        font-size: 40px;
-    
-    }
-    
-    label {
-        display: block;
-        margin-bottom: 25px;
-        margin-top: 5px;
-        font-size: 30px;
-    }
-    
-    input {
-        width: 88%;
-        padding: 25px;
-        border: 5px solid #F2E5DD;
-        border-radius: 4px;
-        background-color: #F2E5DD;
-    
-    
-    }
-    
-    button {
-        width: 45%;
-        padding: 15px;
-        background-color: #070E50;
-        color: white;
-        border: none;
-        font-size: 25px;
-        border-radius: 7px;
-        cursor: pointer;
-        margin-top: 30px;
-        margin-left:24%;
-       
-    }
-    
-    button:hover {
-        background-color: #7DAB08;
-    }
-
-} */ 
-
 
 .login-container {
     padding: 20px;
-    background: #496307;
+    background: #7DAB08;
     border-radius: 5px;
     width: 30%;
     margin-left: 34%;
@@ -810,7 +28,7 @@ h2 {
 
 
 .text {
-    color: #7DAB08;
+    color: #B5DA55;
     text-decoration: none;
     margin-top: 30px;
 }
@@ -855,16 +73,25 @@ button {
 }
 
 
-button:hover {
-    background-color: #7DAB08;
-}
-
-
 
 @media screen and (max-width: 1200px) {
     .login-container {
         width: 50%;
         margin-left: 25%;
+    }
+
+    .text {
+        color: #B5DA55;
+        text-decoration: none;
+        margin-top: 25px;
+    }
+    
+    
+    .sign-up {
+        display: flex;
+        margin-left: 15%;
+        gap: 2%;
+        font-size: 18px;
     }
 }
 
@@ -885,10 +112,163 @@ button:hover {
         font-size: 35px;
     }
 
-
+    .text {
+        color: #B5DA55;
+        text-decoration: none;
+        margin-top: 30px;
+    }
+    .text {
+        color: #B5DA55;
+        text-decoration: none;
+        margin-top: 25px;
+    }
+    
+    
     .sign-up {
+        display: flex;
         margin-left: 15%;
+        gap: 2%;
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .login-container {
+        width: 90%;
+        margin-left: 5%;
+        padding: 15px;
+    }
+
+
+    .container {
+        margin-left: 5%;
+    }
+
+
+    h1 {
+        font-size: 35px;
+    }
+
+
+    h2 {
+        font-size: 30px;
+    }
+
+
+    label {
         font-size: 20px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+
+    input {
+        width: 90%;
+        padding: 15px;
+    }
+
+
+    button {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .text {
+        color: #B5DA55;
+        text-decoration: none;
+        margin-top: 25px;
+    }
+    
+    
+    .sign-up {
+        display: flex;
+        margin-left: 15%;
+        gap: 2%;
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 30px;
+    }
+
+
+    h2 {
+        font-size: 25px;
+    }
+
+
+    label {
+        font-size: 18px;
+    }
+
+
+    input {
+        padding: 10px;
+    }
+
+
+    button {
+        font-size: 20px;
+    }
+
+
+    .text {
+        color: #B5DA55;
+        text-decoration: none;
+        margin-top: 25px;
+    }
+    
+    
+    .sign-up {
+        display: flex;
+        margin-left: 15%;
+        gap: 2%;
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    h1 {
+        font-size: 30px;
+    }
+
+
+    h2 {
+        font-size: 25px;
+    }
+
+
+    label {
+        font-size: 18px;
+    }
+
+
+    input {
+        padding: 10px;
+    }
+
+
+    button {
+        font-size: 20px;
+    }
+
+    .text {
+        color: #B5DA55;
+        text-decoration: none;
+        margin-top: 30px;
+    }
+    
+    
+    .sign-up {
+        display: flex;
+        margin-left: 15%;
+        gap: 2%;
+        font-size: 25px;
     }
 }
 
@@ -935,10 +315,20 @@ button:hover {
     }
 
 
-    .sign-up {
-        margin-left: 5%;
-        font-size: 18px;
+    .text {
+        color: #B5DA55;
+        text-decoration: none;
+        margin-top: 30px;
     }
+    
+    
+    .sign-up {
+        display: flex;
+        margin-left: 15%;
+        gap: 2%;
+        font-size: 25px;
+    }
+
 }
 
 
@@ -967,10 +357,17 @@ button:hover {
         font-size: 20px;
     }
 
-
+    .text {
+        color: #B5DA55;
+        text-decoration: none;
+        margin-top: 19px;
+    }
+    
+    
     .sign-up {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
+        display: flex;
+        margin-left: 15%;
+        gap: 2%;
+        font-size: 13px;
     }
 }

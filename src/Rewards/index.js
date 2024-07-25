@@ -16,29 +16,9 @@ const Rewards = () => {
 
   ];
     return(
-      <div>
-        <div className="sidebar">
-      <ul>
-      <li><div className="sidebar-item"><img src="/images/logo.png" className="logo" /></div></li>
-        <li><div className="sidebar-item"><img src="/images/home.png" /> Dashboard</div></li>
-        <li><div className="sidebar-item"><img src="/images/reward.png" /><span style={{color: '#7DAB08'}}> Rewards</span></div></li>
-        <li><div className="sidebar-item"><img src="/images/donate.png" /> Donations</div></li>
-        <li><div className="sidebar-item"><img src="/images/log-out.png" /> Log Out</div></li>
-      </ul>
-    </div>
-
-    <div className="main-content">
-    <div className="profile-info">
-      <li><div className="sidebar-item"><img src="/images/bell.png"/> <img src="/images/Susan.png" alt="Profile Picture" className="profile-picture" /></div></li>
-      <div className="user-profile">
-      <h2>Susan Masaku</h2>
-      <h2 className="profile-name">Logistics Manager</h2>
-      </div>
-    </div>
-
-    <div className="points">
+    <div className="reward-points">
       <h1>Rewards and Points</h1>
-       <table className="table">
+       <table className="rewards-table">
             <thead>
               <tr>
                 <th>Donor ID</th>
@@ -58,9 +38,6 @@ const Rewards = () => {
               ))}
             </tbody>
           </table>
-    </div>
-  </div>
-
     </div>
     )
 }
